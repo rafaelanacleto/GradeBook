@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1706573947 source:c:\repos\gradebook\main.cpp
+	<iostream>
+	<string>
+	"GradeBook.h"
+
+1706572626 c:\repos\gradebook\gradebook.h
+	<string>
+
