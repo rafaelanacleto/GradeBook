@@ -6,16 +6,11 @@
 
 int main()
 {
-    int n[TAM] = {19,3,15,7,11,9,13,5,17,1};
-    int i, j;
+    char string[20], string2[2] = "string Literal";
+    int i;
 
-    for(i = 0; i <= TAM; i++)
-        
-
-    printf("%s%13s%17s\n", "Elemento", "Valor", "Histograma");
-
-    printf("\n -----------------------------------------------------  \n");
-    printf("\n");
+    printf("Entre com uma string: ");
+    
 
     return 0;
 }
