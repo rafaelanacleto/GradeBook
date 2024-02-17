@@ -1,19 +1,10 @@
-/* inicializando um array */
-
 #include <stdio.h>
 
-int main()
-{
-    int num1[5], i;
+void ImprimeMenu(char *menuOpc[], size_t length) {
+    for (int i = 0; i < length; i++) printf("%i - %s\n", i + 1, menuOpc[i]);
+}
 
-    for(i = 0; i <= 5; i++)
-    {
-        num1[i] = i;
-        printf("\no valor de num1[%d] e: %d",i, num1[i]);
-    }
-
-    printf("\n -----------------------------------------------------  \n");
-    printf("\n");
-
-    return 0;
+int main(void) {
+	char *opcSalgados[] = { "Pastel", "Mini pizza", "Coxinha", "Pao de queijo", "Pao de frango com queijo", "Pao de carne" };
+    ImprimeMenu(opcSalgados, sizeof(opcSalgados) / sizeof(opcSalgados[0]));
 }
