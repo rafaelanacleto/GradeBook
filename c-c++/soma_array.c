@@ -6,12 +6,13 @@
 
 int main()
 {
-    int a[TAM] = {1,2,3,4,6,7,8,9,10}, i, total = 0;
+    int n[TAM] = {19,3,15,7,11,9,13,5,17,1};
+    int i, j;
 
     for(i = 0; i <= TAM; i++)
-        total += a[i];
+        
 
-    printf("\nSoma de todos os elementos e: %d", total);
+    printf("%s%13s%17s\n", "Elemento", "Valor", "Histograma");
 
     printf("\n -----------------------------------------------------  \n");
     printf("\n");
